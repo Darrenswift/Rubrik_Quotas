@@ -10,6 +10,8 @@ A soft limit 'slimits' will send an email out to an administrator of the Rubrik 
 
 A hard limit 'hlimits' will pause the SLA's which have passed the threshold, resulting in no more backup jobs running to that SLA(s).
 
+In order to test without pausing SLA's on a Rubrik cluster # line 61 'sla_pause'
+
 ## Variables to Configure 
 
 Define soft and hard thresholds, these are calculated as a percentage of the total available storage of the Rubrik cluster
