@@ -5,9 +5,9 @@ Rubrik quotas functionality for Rubrik CDM
 
 Script use is designed to give quotas funcationality on Rubrik CDM. The script has 'soft' and 'hard' limits. 
 
-A soft limit being defined as an email out to an administrator of the Rubrik CDM platform wwarning that the soft threshold has been reached or exceeded. 
+A soft limit 'slimits' being defined as an email out to an administrator of the Rubrik CDM platform wwarning that the soft threshold has been reached or exceeded. 
 
-A hard limit will pause the SLA's which have passed the threshold, resulting in no more backup jobs running to that SLA(s).
+A hard limit 'hlimits' will pause the SLA's which have passed the threshold, resulting in no more backup jobs running to that SLA(s).
 
 ## Variables to Configure 
 
